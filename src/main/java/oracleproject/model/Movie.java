@@ -63,53 +63,7 @@ public class Movie {
     private String backdrops;
     private String reviewIds;
 
-    // Getters and setters
+
 }
 
 
-//@Entity
-//@Table(name = "movies")
-//public class Movie {
-//    @EmbeddedId
-//    private Id movieId;
-//    private String imdbId;
-//    private String title;
-//    private String releaseDate;
-//    private String trailerLink;
-//    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
-//    private List<Genres> genres;
-//    private String poster;
-//    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
-//    private List<Backdrop> backdrops;
-//    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
-//    private List<ReviewId> reviewIds;
-//
-//    @Embeddable
-//    public static class Id implements Serializable{
-//        private Long timestamp;
-//        private String date;
-//    }
-//
-//    // getters and setters
-//}
-
-
-//
-//public class Movie {
-//
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    private Long id;
-//    private String imdbId;
-//    private String title;
-//    private String releaseDate;
-//    private String trailerLink;
-//    @ElementCollection
-//    private List<String> genres;
-//    private String poster;
-//    @ElementCollection
-//    private List<String> backdrops;
-//    @ElementCollection
-//    private List<String> reviewIds;
-//
-//}
